@@ -62,7 +62,7 @@ vol.py -f reveal.dmp windows.cmdline
 
 ---
 
-### Q5 — MITRE ATT&CK sub-technique
+### Q5 - MITRE ATT&CK sub-technique
 **Answer:** `T1218.011` — Signed Binary Proxy Execution: Rundll32
 
 Rundll32.exe is a legitimate Windows binary abused to execute malicious DLLs, evading defenses under the Defense Evasion tactic.
