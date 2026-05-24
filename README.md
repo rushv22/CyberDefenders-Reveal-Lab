@@ -1,5 +1,4 @@
 # CyberDefenders-Reveal-Lab
-Reveal | Endpoint Forensics | Easy | Volatility 3 
 
 ![Platform](https://img.shields.io/badge/Platform-CyberDefenders-blue)
 ![Category](https://img.shields.io/badge/Category-Endpoint%20Forensics-orange)
