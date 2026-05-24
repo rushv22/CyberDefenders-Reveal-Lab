@@ -17,7 +17,7 @@ Reconstruct a multi-stage attack by analyzing Windows memory dumps using Volatil
 
 ## Investigation
 
-### Q1 — Malicious process name
+### Q1 - Malicious process name
 **Answer:** `powershell.exe`
 
 **Command:**
@@ -29,7 +29,7 @@ PowerShell is commonly abused as a living-off-the-land binary. Its presence in a
 
 ---
 
-### Q2 — Parent PID of malicious process
+### Q2 - Parent PID of malicious process
 **Answer:** `4120`
 
 **Command:**
@@ -40,7 +40,7 @@ Tracing the PPID reveals what spawned the malicious PowerShell instance, helping
 
 ---
 
-### Q3 — Second-stage payload filename
+### Q3 - Second-stage payload filename
 **Answer:** `3435.dll`
 
 **Command:**
@@ -51,7 +51,7 @@ A DLL second-stage payload evades signature detection targeting .exe files.
 
 ---
 
-### Q4 — Shared directory on remote server
+### Q4 - Shared directory on remote server
 **Answer:** `davwwwroot`
 
 **Command:**
@@ -70,7 +70,7 @@ Rundll32.exe is a legitimate Windows binary abused to execute malicious DLLs, ev
 
 ---
 
-### Q6 — Username of malicious process
+### Q6 - Username of malicious process
 **Answer:** `Elon`
 
 **Command:**
@@ -80,7 +80,7 @@ vol.py -f reveal.dmp windows.getsids
 
 ---
 
-### Q7 — Malware family
+### Q7 - Malware family
 **Answer:** `StrelaStealer`
 
 
